@@ -1,0 +1,79 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-image: linear-gradient(rgb(129, 196, 255), rgb(216, 180, 246));
+    background-attachment: fixed;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+
+    background-color: transparent;
+}
+
+div {
+    background-color: azure;
+    margin: 5px auto;
+    padding: 5px 20px;
+
+    text-align: center;
+    border-radius: 10px;
+
+    min-width: 500px;
+}
+
+/*
+.header {
+    padding: 10px 25px;
+    width: 500px;
+}
+
+.divine {
+    padding: 10px 25px;
+    margin: 10px;
+    width: 500px;
+}
+*/
+
+li {
+    padding: 10px;
+    text-align: left;
+}
+
+#fortune {
+    font-family: "Caveat", cursive;
+    font-size: 2em;
+}
+
+#divineFortune {
+    background: linear-gradient(160deg, rgb(207, 87, 255), rgb(255, 125, 186));
+    background-size: 200% 100%;
+    background-position: 100% 0;
+
+    font-family: "Caveat", cursive;
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: transparent;
+
+    transition: 0.3s;
+}
+
+#divineFortune:hover{
+    background-position: 0 0;
+    box-shadow: 0px 0px 15px rgba(255, 0, 255, 0.5);
+
+    cursor: pointer;
+}
+
+#divineFortune:active{
+    box-shadow: 0px 0px 15px rgba(255, 0, 255, 1);
+}
